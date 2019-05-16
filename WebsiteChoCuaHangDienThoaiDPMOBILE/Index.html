@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/dpmobile.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="dpmobile.css"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>ĐP MOBLIE</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<script type="text/javascript">
+function myClick(){
+	var x = confirm("Xác nhận mua mặt hàng này");
+	if(x){
+	alert("Cảm ơn bạn tin tưởng sản phẩm của chúng tôi");
+}else{
+ alert("Mời bạn quay lại tham khảo sản phẩm khác");	
+}
+}
+</script>
+</head>
+<body>
+<div id="menu">
+<header>
+<img src="image/nen5.png" width="972px" height="250px"/>
+<br />
+<br />
+<div id="timkiem">
+	<input type="text" size="36" name="t.search" placeholder="Nhập..........."> 
+	<input type="submit" value="Tìm kiếm">
+   
+</div>
+<div class="menu">
+<div align="right">
+	<a href="Dangky.html">Đăng Kí </a>|<a href="Dangnhap.html"> Đăng Nhập</a>
+</div>
+</div>
+</header>
+<nav>
+  	<ul class="bang">
+        <li><a href="Index.html"> TRANG CHỦ</a></li>
+        <li><a href="GioiThieu.html">GIỚI THIỆU</a></li>
+        <li><a href="Lienhe.html">LIÊN HỆ</a></li>
+	</ul>
+</nav>
+
+<article>
+	<!-- InstanceBeginEditable name="Noidung" -->
+
+<br />
+<div id="content">
+	<ul id="slider">
+		<li class="slide showing"><a href="#"><img class="chuyenhinh" src="image/Slide7.jpg" width="640px" height="260px" /></a></li>
+		<li class="slide"><a href="#"><img class="chuyenhinh" src="image/Slide3.jpg" width="640px" height="260px" /></a></li>
+        <li class="slide"><a href="#"><img class="chuyenhinh" src="image/Slide4.jpg" width="640px" height="260px" /></a></li>   
+        <li class="slide"><a href="#"><img class="chuyenhinh" src="image/Slide5.jpg" width="640px" height="260px" /></a></li>  
+        <li class="slide"><a href="#"><img class="chuyenhinh" src="image/Slide6.jpg" width="640px" height="260px" /></a></li> 
+        <li class="slide"><a href="#"><img class="chuyenhinh" src="image/Slide7.jpg" width="640px" height="260px" /></a></li>         
+	</ul>
+</div>
+<script language="javascript">
+		//mảng slides[0,1,2]
+	var slides = document.querySelectorAll('#slider .slide');
+	var count = slides.length;
+	var tam = 0;
+	var timenext = setInterval(nextSlide,2000);
+	function nextSlide()
+	{
+		slides[tam].className = 'slide';
+		if(tam == count - 1)
+		{
+			tam = -1;
+		}
+		tam = tam + 1;
+		slides[tam].className = 'slide showing';
+	}
+</script>
+<br />
+<br />
+<br />
+<div class="box">
+	<a class="a" href="IPX.html"><img src="image/Iphone X 256G.jpg" width="225" height="200px" /></a><br />
+	<div align="center">
+	<a href="IPX.html">Iphone X 256GB</a>
+	</div>
+	<p><del>21.200.000 VNĐ</del></p>
+	<h4>20.000.000 VNĐ</h4>
+	<div align="center">
+		<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+	</div>
+</div>
+<div class="box">
+<a class="a" href="ZenFone5.html"><img src="image/Asus zenfone 5.jpg" width="225px" height="200px" /></a><br />
+<div align="center">
+<a href="ZenFone5.html">Asus ZenFone 5</a>
+</div>
+<p><del>5.500.000 VNĐ</del></p>
+<h4>5.000.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+</div>
+</div>
+<div class="box">
+<a class="a" href="SSA7.html"><img src="image/SS A7.jpg" width="225px" height="200px"/></a><br />
+<div align="center">
+<a href="SSA7.html">SamSung A7</a>
+</div>
+<p><del>7.200.000 VNĐ</del></p>
+<h4>7.000.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+</div>
+</div>
+<br />
+<br />
+<br />
+<div class="box">
+<a class="a" href="ViVoV11.html"><img src="image/Vivo V11.jpg" width="225px" height="200px" /></a><br />
+<div align="center">
+<a href="ViVoV11.html">ViVo V11</a>
+</div>
+<p><del>8.200.000 VNĐ</del></p>
+<h4>7.850.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" /></div>
+</div>
+<div class="box">
+<a class="a" href="HuaweiNoVa3.html"><img src="image/huawei nova 3.jpg" width="225px" height="200px" /></a><br />
+<div align="center">
+<a href="HuaweiNoVa3.html">Huawei Nova 3</a>
+</div>
+<p><del>8.000.000 VNĐ</del></p>
+<h4>7.700.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+</div>
+</div>
+<div class="box">
+<a class="a" href="Redmi2.html"><img src="image/redmi 2.jpg" width="225px" height="200px"/></a><br />
+<div align="center">
+<a href="Redmi2.html">Redmi 2</a>
+</div>
+<p><del>5.200.000 VNĐ</del></p>
+<h4>4.850.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+</div>
+</div>
+<br />
+<br />
+<div class="box">
+<a class="a" href="SSNote8.html"><img src="image/samsung-galaxy-note-8-ban-my-new-nobox-gia-re-nhat (1)_ygr.jpg" width="225px" height="200px" /></a><br />
+<div align="center">
+<a href="SSNote8.html">SamSung Galaxy Note 8</a>
+</div>
+<p><del>9.100.000 VNĐ</del></p>
+<h4>8.800.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+</div>
+</div>
+<div class="box">
+<a class="a" href="IP7.html"><img src="image/Iphone 7 32GB.jpg" width="225px" height="200px" /></a><br />
+<div align="center">
+<a href="IP7.html">Iphone 7 32GB </a>
+</div>
+<p><del>9.100.000 VNĐ</del></p>
+<h4>9.000.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+</div>
+</div>
+<div class="box">
+<a class="a" href="OppoF7.html"><img src="image/oppo F7.jpg" width="225px" height="200px"/></a><br />
+<div align="center">
+<a href="OppoF7.html">Oppo F7</a>
+</div>
+<p><del>5.490.000 VNĐ</del></p>
+<h4>4.990.000 VNĐ</h4>
+<div align="center">
+<input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+</div>
+</div>
+            
+<!-- InstanceEndEditable -->
+</article>
+
+<aside>
+
+<div class="menu1">
+    <h3>DANH MỤC SẢN PHẨM</h3>
+    <img src="image/icon2.png" />
+    <div align="justify">
+        <ul style="list-style-image: url(image/1.png)">
+            <li><a href="Iphone.html">Iphone</a></li>
+            <li><a href="SamSung.html">Samsung</a></li>
+            <li><a href="Redmi.html">Redmi</a></li>
+            <li><a href="Oppo.html">Oppo</a></li>
+            <li><a href="ViVo.html">Vivo</a></li>
+            <li><a href="huawei.html">Huawei</a></li>
+            <li><a href="Asus.html">Asus</a></li>
+        </ul>
+    </div>
+</div>
+	
+<div class="menu2" align="center">
+    <h3>HỖ TRỢ TRỤC TUYẾN</h3>
+    <img src="image/icon2.png" />
+    <p> Tư vấn 1</p>
+    <a href="https://www.facebook.com/profile.php?id=100007990025742"><img class="tv" src="image/57852567_852311321775277_5568863877417926656_n.jpg" width="110px" height="150px" /></a>
+    <p> Điện Thoại : 0705599174</p>
+    <hr />
+    <br />
+    <p> Tư vấn 2</p>
+    <a href="https://www.facebook.com/Tricker.Phuc"><img class="tv" src="image/phuc.jpg" width="110px" height="150px" /></a>
+    <p> Điện Thoại : 0705599174</p>
+    </div>
+    <div class="menu2" align="center">
+    <h3>ĐỊA CHỈ SHOP</h3>
+    <img src="image/icon2.png" />
+    <p><a href="https://www.google.com/maps/place/%C4%90%E1%BA%A1i+h%E1%BB%8Dc+Th%E1%BB%A7+D%E1%BA%A7u+M%E1%BB%99t/@10.9806505,106.6743283,21z/data=!4m12!1m6!3m5!1s0x3174d12739bb468f:0xe2bf4f397d0aa76!2sThu+Dau+Mot+University!8m2!3d10.9806545!4d106.6744477!3m4!1s0x0:0xf500a5c3425a73a3!8m2!3d10.9805814!4d106.674586"</a>Trường đại học Thủ Dầu Một</p>
+    <br />
+</div>
+
+</aside>
+<footer align="center">
+<br />
+<marquee class="chuchay1">CỬA HÀNG BÁN ĐIỆN THOẠI DI ĐỘNG UY TÍN - CHẤT LƯỢNG</marquee>
+<div class="ketthuc" ><a href="Index.html">ĐP MOBILE</a></div>
+<p><b>Điện Thoại Uy Tín</b></p>
+<p>Hotline của shop: 0705599174</p>
+</footer>
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

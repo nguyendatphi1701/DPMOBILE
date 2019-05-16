@@ -1,0 +1,552 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image:url(image/nen4.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	font-family:"Times New Roman", Times, serif;
+}
+#menu{
+	width:960px;
+	margin:0 auto;
+}
+header{
+	position:relative;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+
+header img{
+	border-radius: 1%;
+	}
+
+.menu{
+	position:absolute;
+	top:250px;
+	right:250px;
+}
+
+article{
+	float:right;
+	width:700px;
+	padding-top:22px;
+}
+
+.tuade>p{
+	text-align: center;
+	font-size: 36px;
+	top: 3000px;
+	}
+.chu{
+	text-align: justify;
+	}
+
+aside{
+	float:left;
+	width:260px;
+	padding-top: 20px;
+}
+footer{
+	clear:both;
+}
+.ketthuc{
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+.ketthuc a{
+	text-decoration:none;
+	color:#5561ba;
+	text-transform:uppercase;
+}
+footer b{
+	text-align:center;
+	text-transform:uppercase;
+	color:#808080;
+	font-size:18px;
+}
+footer p{
+	font-size: 20px;
+	text-align:center;
+	font-style:italic;
+	color:#000;
+	font-weight:bold;
+}
+.chuchay1{
+	background-color:#09F;
+	color:#FFF;
+	text-transform:uppercase;
+	height:40px;
+	line-height:40px;
+	font-size:24px;
+	border-radius:10px;
+}
+.menu1{
+	padding-left:30px;
+	background-color:#09F;
+	border-radius:10px;
+	padding-top: 2px;
+}
+.menu1 ul li{
+	padding:10px;
+}
+.menu1 ul li a{
+	text-decoration:none;
+	color:#FFF;	
+}
+.menu1 ul li a:hover{
+	color:#FF0;
+}
+.box{
+	width:225px;
+	float:left;
+	border:1px solid #333;
+	margin:0px 3px;
+}
+.button{
+	background-color:#09F;
+	height:30px;
+	line-height:30px;
+	border-radius:5px;
+	color:#FFF;
+	padding:0 5px;
+}
+.box a{
+	text-decoration:none;
+	color:#000;
+}
+.box a:hover{
+	color:#F60;
+}
+.box p{
+	text-align:center;
+	color:#333;
+	font-weight:bold;
+}
+.box h4{
+	color:#F00;
+	text-align:center;
+}
+h3{
+	color:#FFF;
+	font-weight:bold;
+	margin-top:19px;
+}
+.menu2{
+	/*background-color:#f3285b;*/
+	background-color: #09F;
+	border-radius:10px;
+}
+.menu2 p{
+	text-align:center;
+	color:black;
+	font-weight:bold;
+}
+nav>ul>li{
+	display:inline-block;
+	position:relative;
+	}
+	
+nav>ul>li>a{
+	display:block;
+	text-decoration:none;
+	padding:0 15px;
+	line-height:50px;
+	color:white;
+	font-weight:bold;
+	}
+nav>ul>li>a:hover{
+	color:#FF0;
+}
+nav>ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	border-radius:10px;
+	background-color: #09F;
+	/*background-color:#f73969;*/
+	text-align:center;
+	} 		
+nav ul ul{
+	position:absolute;
+	display:none;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	width:250px;
+	}
+nav ul ul a{
+	display:block;
+	line-height:30px;
+	background-color:#09F;
+	/*background-color:#f73969;*/
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	padding:10px 10px;
+	border: 2px solid #FFF;
+	}  	
+nav > ul > li:hover>ul{
+	display:block;
+}	
+nav ul ul a:hover{
+	color:#FF0;
+}
+.tv{
+	border-radius: 30%;
+	transition-duration:0.5s;
+	transition-property:all;
+	transition-timing-function:ease;
+	}
+.tv:hover{
+	transform:scale(1.2);
+	}
+.a img{
+	border-radius: 5%;
+transition-duration: 0.5s;
+}
+.a img:hover{
+transform:scale(1.5);
+}
+
+/*Tim Kiem*/
+#timkiem{
+	float:right;
+	background-color: white;
+	margin-top:10px;
+	margin-right:270px;
+	height: 28px;
+	width: 380px;
+	border:0.5px solid #CED2DD;
+	border-radius: 5px;
+}
+
+#timkiem>input[type=text]
+{
+	float: left;
+	height: 26px;
+	width: 220px;
+	font-size: 15px;
+	border: none;
+}
+
+#timkiem>input[type=submit]
+{
+	float: right;
+	height: 100%;
+	width: 160px;
+	background: #F7F2E7;
+	font-size:14px;
+}
+
+#timkiem> input[type =submit]:hover{
+	cursor: pointer;}
+	
+/*DANH MỤC*/
+.lh{
+	font-weight:bold;
+}
+.lh2{
+	color:#551aa8;
+}
+.lh3{
+	color:#808080;
+}
+.lh1{
+	color:#ff0000;
+}
+article ul li{
+	margin-left:40px;
+	margin-bottom:15px;
+	color:#F00;
+}
+h2{
+	color:#808080;
+	text-align:center;
+	font-style:italic;
+}
+article>div>h1{
+	text-align:center;
+	
+	top: 200px;
+	padding-top:50px;
+}
+
+
+/*Sản phẩm*/
+
+.lh{
+	font-weight:bold;
+}
+.lh2{
+	color:#551aa8;
+}
+.lh3{
+	color:#808080;
+}
+.lh1{
+	color:#ff0000;
+}
+article ul li{
+	margin-left:40px;
+	margin-bottom:15px;
+	color:#F00;
+}
+h2{
+	color:#808080;
+	text-align:center;
+	font-style:italic;
+}
+.box1 a{
+	text-decoration:none;
+	color:#000;
+}
+.box1 a:hover{
+	color:#F60;
+}
+.box1 p{
+	text-align:center;
+	color:#333;
+	font-weight:bold;
+}
+.box1 h4{
+	color:#F00;
+	text-align:center;
+}
+
+/*Giới thiệu*/
+.lh{
+	font-weight:bold;
+}
+.lh2{
+	color:#551aa8;
+}
+.lh3{
+	color:#808080;
+}
+.lh1{
+	color:#ff0000;
+}
+article ul li{
+	margin-left:40px;
+	margin-bottom:15px;
+	color:#F00;
+}
+h2{
+	color:#808080;
+	text-align:center;
+	font-style:italic;
+}
+article>div>h1{
+	padding-top:5px;
+	border-radius: 5%;
+	background-color:#09F;	
+	color:#FFF;
+	text-align: center;
+	}
+.hd1{
+	font-weight:bold;
+	margin-left:50px;
+	color:#00F;
+}
+.hd2{
+	font-weight:bold;
+	color:#00F;
+}
+.hd3{
+	font-weight:bold;
+	color:#00F;
+}
+.hd4{
+	margin-left:10px;
+	color:#096;
+	font-weight:bold;
+}
+.hd5{
+	margin-left:50px;
+}
+.hd6{
+	margin-left:50px;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#content{
+	width:510px;
+	height:224px;
+	z-index: 1;
+	}
+#slider{
+	list-style:none;
+	position:relative;
+	
+	}
+#slider .slide{
+	opacity:0;
+	position:absolute;
+	}
+#slider .showing{
+	opacity: 1;
+}
+.chuyenhinh{
+	border-radius:5%;
+	}
+	
+/*Liên Hệ*/
+.lh{
+	font-weight:bold;
+}
+.lh2{
+	color:#03F;
+}
+.lh3{
+	color:#03F;
+}
+.lh1{
+	color:#03F;
+}
+article ul li{
+	margin-left:40px;
+	margin-bottom:15px;
+	color:#F00;
+}
+h2{
+	color:#808080;
+	text-align:center;
+	font-style:italic;
+}
+.h{
+	width:250px;
+	height:40px;
+	border-radius:10px;
+	border:2px solid #03F;
+	}
+.ha{
+	width:510px;
+	height:40px;
+	border-radius:10px;
+	border:2px solid #03F;
+	}
+.hh{
+	border-radius:10px;
+	border:2px solid #03F;
+	}
+.hu{
+	padding:0 75px;
+}
+button{
+	background-color:#03F;
+	color:white;
+	height:40px;
+	width:110px;
+	border-radius:7px;
+}
+
+/*Đăng nhập*/
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+     
+    background: #f3f3f3;
+    border: 1px solid #fff;
+    border-radius: 5px;
+     
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+ 
+/*******************
+HEADER
+*******************/
+ 
+.login-form .header {
+    padding: 40px 30px 30px 30px;
+}
+ 
+.login-form .header h1 {
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height:34px;
+    color: #414848;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+    margin-bottom: 10px;
+}
+ 
+.login-form .header span {
+    font-size: 11px;
+    line-height: 16px;
+    color: #678889;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+}
+ 
+/*******************
+CONTENT
+*******************/
+ 
+.login-form .content {
+    padding: 35px 30px 25px 30px;
+}
+ 
+/* Input field */
+.login-form .content .input {
+    width: 188px;
+    padding: 15px 25px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9d9e9e;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+ 
+/* Second input field */
+.login-form .content .password, .login-form .content .pass-icon {
+    margin-top: 25px;
+}
+ 
+.login-form .content .input:hover {
+    background: #dfe9ec;
+    color: #414848;
+}
+ 
+.login-form .content .input:focus {
+    background: #dfe9ec;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+}
+ 
+.user-icon, .pass-icon {
+    width: 46px;
+    height: 47px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    padding-right: 2px;
+    z-index: -1;
+}
+ 
+.user-icon {
+    top:153px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+    background: rgba(65,72,72,0.75) url(user-icon.png) no-repeat center;    
+}
+ 
+.pass-icon {
+    top:201px;
+    background: rgba(65,72,72,0.75) url(pass-icon.png) no-repeat center;
+}
+ 
+.content input:focus + div{
+    left: -46px;
+}
+ 
+/* Animation */
+.input, .user-icon, .pass-icon, .button, .register {
+    transition: all 0.5s ease;
+}
